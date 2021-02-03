@@ -207,7 +207,7 @@ $(document).ready(function() {
 
 
 });
-
+// New shit
 const $window = $(window);
 const $body = $('body');
 
