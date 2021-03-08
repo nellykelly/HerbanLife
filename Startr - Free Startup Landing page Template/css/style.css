@@ -234,7 +234,8 @@ a:focus, img:focus, button:focus, .btn:focus {
   align-self: center;
   position: center;
   background-color: #5FB460;
-  width: 35%;
+  width: 75%;
+  height: 100%;
   border: 2px solid grey;
   padding: 30px;
   margin: auto;
@@ -242,6 +243,48 @@ a:focus, img:focus, button:focus, .btn:focus {
   opacity: 0.95;
 
 }
+
+.landingPageBoxMiddle {
+  align-self: center;
+  position: center;
+  background-color: #5FB460;
+  border: 2px solid grey;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  opacity: 0.95;
+
+}
+
+.Infotxt {
+  font-size: 2.5em;
+  padding-left: : 10%;
+}
+
+.columnL {
+  float: left;
+}
+
+.leftL, .rightL {
+  width: 25%;
+  height: 400px;
+  padding-top: 100px;
+
+}
+
+.middleL {
+  width: 50%;
+  align-self: center;
+  position: center;
+  padding-left: 10%;
+}
+
+.rowL:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*New Shit*/
  /* ---------------------------------------------------
@@ -470,7 +513,7 @@ header[role="title-page"] h2,header[role="title-page"] h2{ color:#000; font-size
 
 .section-two section article ul>li{ padding-bottom:10px}
 
-.section-two section article ul>li:before{content:"\f046";font-family:'FontAwesome'; color:#222222; font-size:16px; padding-right:9px}
+/*.section-two section article ul>li:before{content:"\f046";font-family:'FontAwesome'; color:#222222; font-size:16px; padding-right:9px}*/
 
 /*== Video ==*/
 
